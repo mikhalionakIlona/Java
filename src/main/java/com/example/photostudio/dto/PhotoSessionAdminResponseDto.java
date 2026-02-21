@@ -150,5 +150,3 @@ public class PhotoSessionAdminResponseDto {
         this.status = status;
     }
 }
-
-';l
