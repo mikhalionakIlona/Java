@@ -12,8 +12,7 @@ public class PhotoSessionAdminResponseDto {
     private String photographer;
     private String status;
 
-    public PhotoSessionAdminResponseDto() {
-    }
+    public PhotoSessionAdminResponseDto() {}
 
     private PhotoSessionAdminResponseDto(Builder builder) {
         this.id = builder.id;
@@ -40,8 +39,7 @@ public class PhotoSessionAdminResponseDto {
         private String photographer;
         private String status;
 
-        private Builder() {
-        }
+        private Builder() {}
 
         public Builder id(Long id) {
             this.id = id;
@@ -86,7 +84,6 @@ public class PhotoSessionAdminResponseDto {
         public PhotoSessionAdminResponseDto build() {
             return new PhotoSessionAdminResponseDto(this);
         }
-
     }
 
     public Long getId() {
